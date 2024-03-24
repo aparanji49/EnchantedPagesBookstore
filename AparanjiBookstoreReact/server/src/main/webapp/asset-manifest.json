@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/AparanjiBookstoreReact/static/css/main.e95c85d3.css",
+    "main.js": "/AparanjiBookstoreReact/static/js/main.0625b8b0.js",
+    "static/js/453.419a5d54.chunk.js": "/AparanjiBookstoreReact/static/js/453.419a5d54.chunk.js",
+    "static/media/hero image.png": "/AparanjiBookstoreReact/static/media/hero image.71fb0a742e4c5c456a1f.png",
+    "static/media/CookBooks.png": "/AparanjiBookstoreReact/static/media/CookBooks.38afdb6b6c9475dc7dc5.png",
+    "static/media/romance.png": "/AparanjiBookstoreReact/static/media/romance.752e82e315d59dceb67c.png",
+    "static/media/the-amityville-horror.jpg": "/AparanjiBookstoreReact/static/media/the-amityville-horror.96f427531c55b418f7b3.jpg",
+    "static/media/intercepts-a-horror-novel.jpg": "/AparanjiBookstoreReact/static/media/intercepts-a-horror-novel.223be408624121e977d4.jpg",
+    "static/media/Thriller.png": "/AparanjiBookstoreReact/static/media/Thriller.946efb816efb3164a4ea.png",
+    "static/media/Horror.png": "/AparanjiBookstoreReact/static/media/Horror.476ac75a21b342f48cd0.png",
+    "static/media/fragments-of-horror.jpg": "/AparanjiBookstoreReact/static/media/fragments-of-horror.1f9455137fab94e95c32.jpg",
+    "static/media/horror-in-the-east.jpg": "/AparanjiBookstoreReact/static/media/horror-in-the-east.af7bc16ceccd6dd7c65c.jpg",
+    "static/media/the-horror-of-dracula.jpg": "/AparanjiBookstoreReact/static/media/the-horror-of-dracula.d5cfef923213b629dc77.jpg",
+    "static/media/Logo-enchanted-pages.png": "/AparanjiBookstoreReact/static/media/Logo-enchanted-pages.24c295dc1c970e516fa6.png",
+    "static/media/lighthouse-horrors.jpg": "/AparanjiBookstoreReact/static/media/lighthouse-horrors.1dc1a59271f846be7314.jpg",
+    "index.html": "/AparanjiBookstoreReact/index.html",
+    "main.e95c85d3.css.map": "/AparanjiBookstoreReact/static/css/main.e95c85d3.css.map",
+    "main.0625b8b0.js.map": "/AparanjiBookstoreReact/static/js/main.0625b8b0.js.map",
+    "453.419a5d54.chunk.js.map": "/AparanjiBookstoreReact/static/js/453.419a5d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e95c85d3.css",
+    "static/js/main.0625b8b0.js"
+  ]
+}
