@@ -1,0 +1,28 @@
+
+/*.book-lists {*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    padding: 1em;*/
+/*    gap: 1em;*/
+/*}*/
+.categories-page {
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - 200px);
+}
+
+.vertical-categories-menu {
+    flex: 15%;
+    background-color: #1E1E1E;
+    align-items: center;
+}
+.book-boxes {
+    flex: 85%;
+}
+
+.book-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding: 1em;
+}
