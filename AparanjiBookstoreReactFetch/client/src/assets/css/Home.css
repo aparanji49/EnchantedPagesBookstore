@@ -1,0 +1,122 @@
+
+/*.home-pages  {*/
+/*    display: flex;*/
+
+/*}*/
+
+/*.welcome-text {*/
+/*    width: 30em;*/
+/*    background-color: var(--neutral-color);*/
+/*    color: whitesmoke;*/
+/*    padding: 1rem;*/
+/*    margin-top: 1rem;*/
+/*}*/
+/*.flow-content > * + * {*/
+/*    margin-top: 1rem;*/
+/*}*/
+
+/*!**/
+/*  Giving various sections of your page this utility class*/
+/*  will ensure a nice padding around the contents.*/
+/**!*/
+/*.container {*/
+/*    padding: 2rem;*/
+/*}*/
+.home-page {
+    /*height: calc(100vh - 200px);*/
+    display: flex;
+    height: max-content;
+    padding-bottom: 80px;
+
+}
+.hero-image,
+.top-genres {
+    flex: 1;
+}
+
+
+.hero-image {
+    background: url("../images/site/hero image.png");
+    width: 600px;
+    height: 617px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text {
+    text-align: center;
+    width: 260px;
+    color: #3A3967;
+    text-shadow: 1px 1px 4px #2b2b2b;
+    font-size: 50px;
+}
+.genre-boxes,
+.cta-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.genre-box {
+    height: 200px;
+    width: 150px;
+    border: none;
+    margin: 30px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.thriller {
+    background: url("../images/categories/Thriller.png");
+}
+
+.romance {
+    background: url("../images/categories/romance.png");
+}
+
+.cookbooks {
+    background: url("../images/categories/CookBooks.png");
+}
+
+.horror {
+    background: url("../images/categories/Horror.png");
+}
+
+.cta-button {
+    display: block;
+    width: fit-content;
+    border-radius: 30px;
+    height: 40px;
+    border: none;
+    color: white;
+    background-color: #563975;
+    text-shadow: 2px 2px 4px #2b2b2b;
+    padding: 10px 22px;
+    box-shadow: 2px 2px 4px #2b2b2b;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 175px;
+}
+.cta-button:hover, .cta-button:focus{
+    background-color: #0089bf;
+    cursor: pointer;
+}
+.genre-box>div {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+    color: white;
+    font-weight: 200;
+    margin-bottom: 10px;
+    margin-top: 150px;
+    width: 100%;
+    height: fit-content;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    display: block;
+    align-self: auto;
+    text-align: center;
+}
+
