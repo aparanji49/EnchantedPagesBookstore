@@ -1,0 +1,30 @@
+.confirmation-body{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #b594c326;
+    box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
+}
+
+
+
+.cust-details{
+    width: 19em;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+}
+
+.cust-details-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.confirmation_table{
+    margin: 25px 0;
+    border-top: 1px solid #424561;
+    border-bottom: 1px solid #424561;
+}
