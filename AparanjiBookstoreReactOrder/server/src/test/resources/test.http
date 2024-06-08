@@ -1,0 +1,243 @@
+
+GET http://localhost:8080/AparanjiBookstoreReactOrder/api/categories
+Accept: application/json
+
+###
+
+POST http://localhost:8080/AparanjiBookstoreReactOrder/api/orders
+Accept: */*
+Accept-Language: en-US,en;q=0.9
+Cache-Control: no-cache
+Connection: keep-alive
+Cookie: Idea-7dc981aa=0357570d-b1ad-42d7-86e6-ff92ec29d89c
+DNT: 1
+Origin: http://localhost:8080
+Pragma: no-cache
+Referer: http://localhost:8080/DrABookstoreFinal/client
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+sec-ch-ua: "Google Chrome";v="119", "Chromium";v="119", "Not?A_Brand";v="24"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+Content-Type: application/json
+
+{
+  "cart": {
+    "itemArray": [
+      {
+        "book": {
+          "bookId": 1017,
+          "title": "The Mythical Man Month",
+          "author": "Frederick P. Brooks, Jr.",
+          "description": "",
+          "price": 1398,
+          "rating": 0,
+          "isPublic": true,
+          "isFeatured": false,
+          "categoryId": 1001
+        },
+        "quantity": 1,
+        "id": 1017
+      }
+    ]
+  },
+
+  "customerForm": {
+    "name": "Abcddd",
+    "address": "123 Main St",
+    "phone": "408 555 1212",
+    "email": "steve@email.com",
+    "ccNumber": "4444333322221111",
+    "ccExpiryMonth": 11,
+    "ccExpiryYear": 2023
+  }
+}
+
+###
+#
+#curl "http://localhost:8080/AparanjiBookstoreReactOrder/api/orders" ^
+#  -H ^"sec-ch-ua: ^\^"Chromium^\^";v=^\^"124^\^", ^\^"Google Chrome^\^";v=^\^"124^\^", ^\^"Not-A.Brand^\^";v=^\^"99^\^"^" ^
+#  -H "Accept: application/json, text/plain, */*" ^
+#  -H "Content-Type: application/json" ^
+#  -H "Referer: http://localhost:8080/AparanjiBookstoreReactOrder/checkout" ^
+#  -H "sec-ch-ua-mobile: ?0" ^
+#  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" ^
+#  -H ^"sec-ch-ua-platform: ^\^"Windows^\^"^" ^
+#  --data-raw ^"^{^\^"customerForm^\^":^{^\^"name^\^":^\^"Aparanji^\^",^\^"address^\^":^\^"abcdserf khsw^\^",^\^"phone^\^":^\^"408 555 1212^\^",^\^"email^\^":^\^"abcd^@ gmail.com^\^",^\^"ccNumber^\^":^\^"4111111111111111^\^",^\^"ccExpiryMonth^\^":0,^\^"ccExpiryYear^\^":0^},^\^"cart^\^":^{^\^"itemArray^\^":^[^{^\^"id^\^":1001,^\^"item^\^":^{^\^"bookId^\^":1001,^\^"isPublic^\^":true,^\^"price^\^":14,^\^"title^\^":^\^"The Reverse Coloring Book^\^",^\^"author^\^":^\^"Kendra Norton^\^",^\^"categoryId^\^":1001^},^\^"quantity^\^":1^},^{^\^"id^\^":1013,^\^"item^\^":^{^\^"bookId^\^":1013,^\^"isPublic^\^":true,^\^"price^\^":14,^\^"title^\^":^\^"The Reverse Coloring Book^\^",^\^"author^\^":^\^"Kendra Norton^\^",^\^"categoryId^\^":1003^},^\^"quantity^\^":1^}^]^}^}^"
+
+# curl "http://localhost:8080/AparanjiBookstoreReactOrder/api/orders"
+#  -H "sec-ch-ua: \"Chromium\";v=\"124\", \"Google Chrome\";v=\"124\", \"Not-A.Brand\";v=\"99\""
+#  -H "Accept: application/json, text/plain, */*"
+#  -H "Content-Type: application/json"
+#  -H "Referer: http://localhost:8080/AparanjiBookstoreReactOrder/checkout"
+#  -H "sec-ch-ua-mobile: ?0"
+#  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+#  -H "sec-ch-ua-platform: \"Windows\""
+#  --data-raw '{"customerForm":{"name":"Aparanji","address":"abcdserf khsw","phone":"408 555 1212","email":"abcd@ gmail.com","ccNumber":"4111111111111111","ccExpiryMonth":0,"ccExpiryYear":0},"cart":{"itemArray":[{"id":1001,"item":{"bookId":1001,"isPublic":true,"price":14,"title":"The Reverse Coloring Book","author":"Kendra Norton","categoryId":1001},"quantity":1},{"id":1013,"item":{"bookId":1013,"isPublic":true,"price":14,"title":"The Reverse Coloring Book","author":"Kendra Norton","categoryId":1003},"quantity":1}]}}'
+POST http://localhost:8080/AparanjiBookstoreReactOrder/api/orders
+sec-ch-ua: "Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Referer: http://localhost:8080/AparanjiBookstoreReactOrder/checkout
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Content-Type: application/json
+
+{
+  "customerForm": {
+    "name": "Aparanji",
+    "address": "abcdserf khsw",
+    "phone": "408 555 1212",
+    "email": "abcd@gmail.com",
+    "ccNumber": "4111111111111111",
+    "ccExpiryMonth": 0,
+    "ccExpiryYear": 0
+  },
+  "cart": {
+    "itemArray": [
+      {
+        "id": 1001,
+        "item": {
+          "bookId": 1001,
+          "isPublic": true,
+          "price": 14,
+          "title": "The Reverse Coloring Book",
+          "author": "Kendra Norton",
+          "categoryId": 1001
+        },
+        "quantity": 1
+      },
+      {
+        "id": 1013,
+        "item": {
+          "bookId": 1013,
+          "isPublic": true,
+          "price": 14,
+          "title": "The Reverse Coloring Book",
+          "author": "Kendra Norton",
+          "categoryId": 1003
+        },
+        "quantity": 1
+      }
+    ]
+  }
+}
+
+###
+POST http://localhost:8080/AparanjiBookstoreReactOrder/api/orders
+sec-ch-ua: "Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Referer: http://localhost:8080/AparanjiBookstoreReactOrder/checkout
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Content-Type: application/json
+
+{
+  "cart": {
+    "itemArray": [
+      {
+        "book": {
+          "bookId": 1005,
+          "title": "The Catcher in the Rye",
+          "author": "J.D. Salinger",
+          "price": 1199,
+          "isPublic": true,
+          "categoryId": 1001
+        },
+        "quantity": 1
+      }
+    ]
+  },
+  "customerForm": {
+    "name": "Monica",
+    "email": "monica@email.com",
+    "address": "123 Main St",
+    "phone": "123456789123456789",
+    "ccNumber": "4444333322221111",
+    "ccExpiryMonth": 7,
+    "ccExpiryYear": 2026
+  }
+}
+
+###
+POST http://localhost:8080/AparanjiBookstoreReactOrder/api/orders
+sec-ch-ua: "Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"
+Accept: application/json, text/plain, */*
+Referer: http://localhost:8080/AparanjiBookstoreReactOrder/checkout
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Content-Type: application/json
+
+{
+  "cart": {
+    "itemArray": [
+      {
+        "book": {
+          "bookId": 1005,
+          "title": "The Catcher in the Rye",
+          "author": "J.D. Salinger",
+          "price": 1199,
+          "isPublic": true,
+          "categoryId": 1001
+        },
+        "quantity": 1
+      }
+    ]
+  },
+  "customerForm": {
+    "name": "Monica",
+    "address": "123 Main St",
+    "phone": "408 555 1212",
+    "ccNumber": "4444333322221111",
+    "ccExpiryMonth": 7,
+    "ccExpiryYear": 2026
+  }
+}
+
+###
+
+# curl "http://webdev.cs.vt.edu:8080/AparanjiBookstoreReactOrder/api/orders"
+#  -H "Accept: application/json, text/plain, */*"
+#  -H "Referer: http://webdev.cs.vt.edu:8080/AparanjiBookstoreReactOrder/checkout"
+#  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+#  -H "Content-Type: application/json"
+#  --data-raw "{\"customerForm\":{\"name\":\"kjsbghszv\",\"address\":\"uksgdf\",\"phone\":\"408 555 1212\",\"email\":\"hdv@ jbs.chd\",\"ccNumber\":\"4111111111111111\",\"ccExpiryMonth\":2,\"ccExpiryYear\":4},\"cart\":{\"itemArray\":[{\"id\":1027,\"item\":{\"bookId\":1027,\"isPublic\":true,\"price\":43,\"title\":\"Fragments of Horror\",\"author\":\"Junji Ito\"},\"quantity\":1}]}}"
+POST http://webdev.cs.vt.edu:8080/AparanjiBookstoreReactOrder/api/orders
+Accept: application/json, text/plain, */*
+Referer: http://webdev.cs.vt.edu:8080/AparanjiBookstoreReactOrder/checkout
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Content-Type: application/json
+
+{
+  "customerForm": {
+    "name": "kjsbghszv",
+    "address": "uksgdf",
+    "phone": "408 555 1212",
+    "email": "hdv@jbs.chd",
+    "ccNumber": "4111111111111111",
+    "ccExpiryMonth": 2,
+    "ccExpiryYear": 4
+  },
+  "cart": {
+    "itemArray": [
+      {
+        "id": 1027,
+        "item": {
+          "bookId": 1027,
+          "isPublic": true,
+          "price": 43,
+          "title": "Fragments of Horror",
+          "author": "Junji Ito"
+        },
+        "quantity": 1
+      }
+    ]
+  }
+}
+
+###
+
