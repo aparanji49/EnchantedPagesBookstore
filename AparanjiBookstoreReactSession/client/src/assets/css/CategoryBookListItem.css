@@ -1,0 +1,85 @@
+
+/*.book-box {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    background-color: var(--card-background-color);*/
+/*    padding: 1em;*/
+/*    gap: 0.25em;*/
+/*}*/
+
+/*.book-title {*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*.book-author {*/
+/*    font-style: italic;*/
+/*}*/
+.book-box {
+    display: grid;
+    grid-template-columns: 1fr minmax(8em, 12em);
+    grid-template-rows: min-content min-content min-content 1fr min-content;
+    background-color: #E4DBE7;
+    column-gap: 0.5em;
+    row-gap: 0.25em;
+    padding:1em 0 1em 1em;
+}
+
+.book-box img {
+    grid-column: 1 / 2;
+    grid-row: 1 / -1;
+    width: 130px;
+}
+
+.book-title {
+    font-weight: bold;
+}
+
+.read-now-button {
+    grid-column: 1 / 1;
+    grid-row: 1 / -1;
+    background-color:  rgba(181, 148, 195);
+    color: white;
+    text-shadow: 2px 2px 4px #2b2b2b;
+    width: min-content;
+    height: min-content;
+    justify-self: end;
+    border: 1px solid #563975;
+    /* margin-top: .5em;
+    margin-right: .5em; */
+    border-radius: 50%;
+    padding: .5em;
+    font-size: 1rem;
+}
+
+.read-now-button:hover,
+.buy-now-button:hover,
+.remove-button:hover{
+    cursor: pointer;
+    background-color: #0089bf;
+}
+
+.book-price {
+    font-style: italic;
+}
+
+.buy-now-button {
+    grid-row: -1 / -1;
+    grid-column: 1 / 2;
+    margin-top: 2px;
+    margin-left: 25px;
+    font-size: .8rem;
+    font-weight: 500;
+    justify-self: center;
+    padding: .5em 1.5em;
+}
+
+.remove-button{
+    grid-row: -1 / -1;
+    grid-column: 2 / -1;
+    margin-top: 2px;
+    margin-left: 25px;
+    font-size: .8rem;
+    font-weight: 500;
+    justify-self: center;
+    padding: .5em 1.5em;
+}
